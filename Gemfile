@@ -8,5 +8,5 @@ group :development do
 end
 
 group :plugins do
-  gem "vagrant-nfs_guest", path: "."
+  gem "vagrant-nfs_guest_vbfix", path: "."
 end

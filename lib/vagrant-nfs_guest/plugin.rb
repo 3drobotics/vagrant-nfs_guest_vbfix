@@ -25,7 +25,7 @@ module VagrantPlugins
     # This plugin implements Guest Exported NFS folders.
     #
     class Plugin < Vagrant.plugin("2")
-      name "vagrant-nfs_guest"
+      name "vagrant-nfs_guest_vbfix"
       description <<-DESC
       The Vagrant NFS Guest synced folders plugin enables you to use NFS exports from
       the Guest as a synced folder implementation. This allows the guest to utilise

@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'vagrant-nfs_guest/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "vagrant-nfs_guest"
+  spec.name          = "vagrant-nfs_guest_vbfix"
   spec.version       = VagrantPlugins::SyncedFolderNFSGuest::VERSION
-  spec.authors       = ["Alan Garfield"]
-  spec.email         = ["alan.garfield@learnosity.com"]
+  spec.authors       = ["Alan Garfield", "Liam Staskawicz"]
+  spec.email         = ["alan.garfield@learnosity.com", "liam@3drobotics.com"]
   spec.description   = %q{Adds support for guest nfs exporting of synced folders}
   spec.summary       = %q{Adds support for guest nfs exporting of synced folders}
   spec.homepage      = ""
